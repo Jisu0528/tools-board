@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        Hello ejs!
+        <h1><%= title%></h1>
+        <h2><%= test%></h2>
+        <% for(i = 0; i <5; i++){ %>
+            <%=i%> : <%= test%> <br>
+        <% } %>
+            <br><br>
+        <% if(test.length) { %>
+            true
+        <%} else{%>
+            false
+        <%}%>
+    </body>
+</html>
